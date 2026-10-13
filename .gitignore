@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Experiment tracking and training outputs
+wandb/
+model-cache/
+artifacts/
+checkpoints/
+outputs/
+results/checkpoint-*/
+*-adapters/
+
+# Large model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
